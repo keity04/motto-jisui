@@ -1,0 +1,531 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "いろはマル";
+    font-weight: lighter;
+    color: #302F2B;
+    text-decoration: none;
+}
+
+img {
+    object-fit: cover;
+}
+
+.side {
+    display: flex;
+}
+
+.text-right {
+    background-color: #fefdf8;
+    border-radius: 20px;
+    padding: 35px;
+    font-size: 18px;
+    letter-spacing: 0.1em;
+    line-height: 2em;
+    border-bottom: solid 10px #F5E554;
+    border-left: solid 10px #F5E554;
+    width: -moz-fit-content;
+    width: fit-content;
+    margin-right: 0;
+    margin-left: auto;
+}
+
+.text-left {
+    background-color: #fefdf8;
+    border-radius: 20px;
+    padding: 35px;
+    font-size: 18px;
+    letter-spacing: 0.1em;
+    line-height: 2em;
+    border-bottom: solid 10px #F5E554;
+    border-right: solid 10px #F5E554;
+    width: -moz-fit-content;
+    width: fit-content;
+}
+
+span {
+    background: linear-gradient(transparent 60%, #F5E554 60%);
+    font-weight: normal;
+}
+
+h2 {
+    display: inline-block;
+    color: #6B420E;
+    font-size: 28px;
+    background: linear-gradient(transparent 70%, #F8B600 70%);
+    font-weight: normal;
+    margin-bottom: 30px;
+}
+
+/* header */
+
+header {
+    height: 80px;
+    line-height: 80px;
+    display: flex;
+    justify-content: space-between;
+    /* padding: 0px 180px; */
+    position: fixed;
+    width: 100%;
+    background-color: rgba(248, 182, 0, 0.5);
+}
+
+.nav-firstView {
+    font-size: 24px;
+    font-weight: bold;
+    color: #F7931E;
+    padding-left: 150px;
+}
+
+header ul {
+    width: 700px;
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    padding-right: 30px;
+}
+
+header a {
+    font-size: 20px;
+    font-weight: bold;
+    color: #6B420E;
+    letter-spacing: 0.1em;
+}
+
+.nav:hover {
+    color: #302F2B;
+}
+
+/* firstView */
+#firstView {
+    height: 100vh;
+    background-color: #fefdf8;
+}
+
+.logo {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateY(-50%) translateX(-50%);
+    -webkit-transform: translateY(-50%) translateX(-50%);
+}
+
+.logo img {
+    margin: auto;
+}
+
+.logo p {
+    color: #6B420E;
+    font-size: 34px;
+    text-align: center;
+}
+
+/* ABOUT */
+#about {
+    background-color: #fff3d9;
+    padding: 200px 280px 200px;
+}
+
+.text-center {
+    background-color: #fefdf8;
+    border-radius: 20px;
+    padding: 35px;
+    font-size: 18px;
+    letter-spacing: 0.1em;
+    line-height: 2em;
+    border-bottom: solid 10px #F5E554;
+    border-right: solid 10px #F5E554;
+    width: -moz-fit-content;
+    width: fit-content;
+    margin: auto;
+}
+
+.about-content1 {
+    margin-bottom: 60px;
+}
+
+.about-content1 img {
+
+    width: 400px;
+    height: 400px;
+    display: block;
+    margin: auto;
+}
+
+.about-lines {
+    margin-top: 50px;
+    text-align: center;
+}
+
+.line1 {
+    position: relative;
+    padding: 0.5em 0.7em;
+    margin: 2em 0;
+    background: #fefdf8;
+    border-radius: 20px;
+    text-align: center;
+    display: inline;
+    padding: 40px;
+}
+
+.line1:after {
+    position: absolute;
+    content: '';
+    top: 100%;
+    left: 45%;
+    border: 15px solid transparent;
+    border-top: 15px solid #fefdf8;
+    width: 0;
+    height: 0;
+}
+
+.line2 {
+    position: relative;
+    padding: 0.5em 0.7em;
+    margin: 2em 0;
+    background: #fefdf8;
+    border-radius: 20px;
+    text-align: center;
+    display: inline;
+    padding: 40px;
+}
+
+.line2:after {
+    position: absolute;
+    content: '';
+    top: 100%;
+    left: 80%;
+    border: 15px solid transparent;
+    border-top: 15px solid #fefdf8;
+    width: 0;
+    height: 0;
+}
+
+.line3 {
+    position: relative;
+    padding: 0.5em 0.7em;
+    margin: 2em 0;
+    background: #fefdf8;
+    border-radius: 20px;
+    text-align: center;
+    display: inline;
+    padding: 40px;
+}
+
+.line3:after {
+    position: absolute;
+    content: '';
+    top: 100%;
+    left: 20%;
+    border: 15px solid transparent;
+    border-top: 15px solid #fefdf8;
+    width: 0;
+    height: 0;
+}
+
+.about-lines p {
+    color: #302F2B;
+    display: inline;
+    font-size: 20px;
+}
+
+.about-content2 {
+    text-align: right;
+}
+
+.about-content2 .text-right {
+    text-align: left;
+}
+
+.about-img {
+    position: relative;
+    width: 50%;
+    height: 50%;
+}
+
+.meat {
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    top: -30px;
+    left: 20px;
+}
+
+.people2 {
+    position: absolute;
+    width: 400px;
+    height: 400px;
+    top: 10px;
+    left: 300px;
+}
+
+/* try */
+#try {
+    padding-bottom: 200px;
+}
+
+/* 準備する */
+.preparation {
+    background-color: #fff3d9;
+    padding: 100px 280px 100px;
+}
+
+.preparation .text-left {
+    width: 30vw;
+}
+
+.preparation-img {
+    position: relative;
+}
+
+.people3 {
+    position: absolute;
+    width: 300px;
+    height: 300px;
+}
+
+.text-and-tools {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 100px;
+}
+
+.tools {
+    width: 600px;
+    height: 400px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.tool {
+    background-color: #F8B600;
+    border-radius: 20px;
+    width: 150px;
+    height: 150px;
+    text-align: center;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.tool p {
+    color: #fefdf8;
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+
+.tool img {
+    margin: auto;
+}
+
+.houtyou {
+    transform: rotate(20deg);
+    width: 90px;
+    height: 115px;
+}
+
+.manaita {
+    width: 132px;
+    height: 92px;
+}
+
+.nabe {
+    width: 86px;
+    height: 93px;
+}
+
+.huraipan {
+    width: 106px;
+    height: 106px;
+}
+
+.saibashi {
+    width: 96px;
+    height: 104px;
+    transform: rotate(17deg);
+}
+
+.bouru {
+    width: 115px;
+    height: 103px;
+}
+
+/* 作る */
+.make {
+    background-color: #fefdf8;
+    padding: 100px 280px 100px;
+}
+
+.make .text-left {
+    background-color: #FFF3D9;
+    /* width: 40vw; */
+    border-bottom: solid 10px #FBDF90;
+    border-right: solid 10px #FBDF90;
+}
+
+.make-img {
+    position: relative;
+}
+
+.people4 {
+    position: absolute;
+    width: 450px;
+    height: 450px;
+    top: -60px;
+    left: 50px;
+}
+
+.make-text {
+    margin-bottom: 200px;
+}
+
+.make-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.make-content {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+    width: 20vw;
+    margin-bottom: 150px;
+}
+
+.make-content h3 {
+    position: absolute;
+    top: -20px;
+    left: 30px;
+    color: #fefdf8;
+    padding: 15px;
+    font-size: 24px;
+    background-color: #F7931E;
+    border-radius: 20px;
+    display: inline-block;
+}
+
+.make-content img {
+    border-radius: 50%;
+    width: 300px;
+    height: 300px;
+    margin-bottom: 20px;
+}
+
+.make-content p {
+    color: #fefdf8;
+    background-color: #9A5C0E;
+    padding: 20px;
+    border-radius: 20px;
+    width: 200px;
+}
+
+/* 食べる前に */
+.beforeEat {
+    padding: 0 185px;
+    background-color: #fefdf8;
+}
+
+.beforeEat .text-left {
+    background-color: #FFF3D9;
+    border-bottom: solid 10px #FBDF90;
+    border-right: solid 10px #FBDF90;
+    width: 45vw;
+}
+
+.beforeEat-side {
+    display: flex;
+}
+
+.beforeEat-img {
+    position: relative;
+}
+
+.people5 {
+    position: absolute;
+    top: -120px;
+    width: 500px;
+    height: 500px;
+}
+
+.dish {
+    position: absolute;
+    top: 100px;
+    left: 350px;
+    width: 300px;
+    height: 300px;
+}
+
+/* 料理の幅は広い */
+#more {
+    background-color: #fff3d9;
+    padding: 200px 280px 200px;
+}
+
+.more-content {
+    text-align: right;
+}
+
+.more-content .text-right {
+    text-align: left;
+    width: 30vw;
+}
+
+.more-img {
+    position: relative;
+}
+
+.people6 {
+    position: absolute;
+    top: -20px;
+    left: -40px;
+    width: 450px;
+    height: 450px;
+}
+
+.ichigo {
+    position: absolute;
+    top: -50px;
+    left: 300px;
+    width: 300px;
+    height: 300px;
+}
+
+/* 最後に */
+#message {
+    background-color: #fff3d9;
+    padding: 0 280px 200px;
+}
+
+#message .text-left {
+    width: 35vw;
+}
+
+.message-img {
+    position: relative;
+}
+
+.people7 {
+    position: absolute;
+    width: 600px;
+    height: 600px;
+    top: -60px;
+    left: 100px;
+}
+
+/* footer */
+footer {
+    height: 100px;
+    line-height: 100px;
+    text-align: center;
+    background-color: #6B420E;
+}
+
+footer p {
+    font-size: 18px;
+    color: #fefdf8;
+    font-weight: bold;
+}
