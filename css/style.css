@@ -141,7 +141,7 @@ header a {
 }
 
 .about-content1 {
-    margin-bottom: 60px;
+    margin-bottom: 150px;
 }
 
 .about-content1 img {
@@ -273,12 +273,16 @@ header a {
 /* 準備する */
 .preparation {
     background-color: #fff3d9;
-    padding: 100px 280px 100px;
+    padding: 0 280px 100px;
 }
 
 .preparation .text-left {
     width: 30vw;
     margin-right: 60px;
+}
+
+.preparation .text-right {
+    width: 40vw;
 }
 
 .preparation-img {
