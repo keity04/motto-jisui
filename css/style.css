@@ -247,16 +247,16 @@ header a {
     position: absolute;
     width: 300px;
     height: 300px;
-    top: -30px;
-    left: 20px;
+    top: -50px;
+    left: -30px;
 }
 
 .people2 {
     position: absolute;
     width: 400px;
     height: 400px;
-    top: 10px;
-    left: 300px;
+    top: -20px;
+    left: 140px;
 }
 
 /* try */
@@ -272,6 +272,7 @@ header a {
 
 .preparation .text-left {
     width: 30vw;
+    margin-right: 60px;
 }
 
 .preparation-img {
@@ -291,8 +292,7 @@ header a {
 }
 
 .tools {
-    width: 600px;
-    height: 400px;
+    /* width: 600px; */
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -373,7 +373,7 @@ header a {
     position: absolute;
     width: 450px;
     height: 450px;
-    top: -60px;
+    top: -70px;
     left: 50px;
 }
 
@@ -425,7 +425,7 @@ header a {
 
 /* 食べる前に */
 .beforeEat {
-    padding: 0 185px;
+    padding: 0 280px 185px;
     background-color: #fefdf8;
 }
 
@@ -433,7 +433,7 @@ header a {
     background-color: #FFF3D9;
     border-bottom: solid 10px #FBDF90;
     border-right: solid 10px #FBDF90;
-    width: 45vw;
+    width: 38vw;
 }
 
 .beforeEat-side {
@@ -447,14 +447,15 @@ header a {
 .people5 {
     position: absolute;
     top: -120px;
+    left: -20px;
     width: 500px;
     height: 500px;
 }
 
 .dish {
     position: absolute;
-    top: 100px;
-    left: 350px;
+    top: 150px;
+    left: 230px;
     width: 300px;
     height: 300px;
 }
@@ -481,7 +482,7 @@ header a {
 .people6 {
     position: absolute;
     top: -20px;
-    left: -40px;
+    left: -100px;
     width: 450px;
     height: 450px;
 }
@@ -489,7 +490,7 @@ header a {
 .ichigo {
     position: absolute;
     top: -50px;
-    left: 300px;
+    left: 170px;
     width: 300px;
     height: 300px;
 }
@@ -513,7 +514,7 @@ header a {
     width: 600px;
     height: 600px;
     top: -60px;
-    left: 100px;
+    left: 0px;
 }
 
 /* footer */
