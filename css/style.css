@@ -155,6 +155,7 @@ header a {
 .about-lines {
     margin-top: 50px;
     text-align: center;
+    /* position: relative; */
 }
 
 .line1 {
@@ -166,6 +167,7 @@ header a {
     text-align: center;
     display: inline;
     padding: 40px;
+    /* margin: 0 30px; */
 }
 
 .line1:after {
@@ -188,6 +190,8 @@ header a {
     text-align: center;
     display: inline;
     padding: 40px;
+    top: 80px;
+    margin-right: 20px;
 }
 
 .line2:after {
@@ -210,6 +214,8 @@ header a {
     text-align: center;
     display: inline;
     padding: 40px;
+    top: 80px;
+    margin-left: 20px;
 }
 
 .line3:after {
