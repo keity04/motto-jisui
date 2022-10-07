@@ -5,6 +5,7 @@
     font-weight: normal;
     color: #302F2B;
     text-decoration: none;
+    /* overflow: hidden; */
 }
 
 ul,
@@ -76,7 +77,7 @@ h2 {
     margin-bottom: 10px;
 }
 
-@media screen and (min-width: 960px) {
+@media screen and (min-width: 768px) {
     h2 {
         font-size: 28px;
         background: linear-gradient(transparent 70%, #F8B600 70%);
@@ -165,7 +166,7 @@ h2 {
 }
 
 .header__inner {
-    padding: 0 120px;
+    padding: 0 10vw;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -179,7 +180,7 @@ h2 {
 }
 
 
-@media screen and (min-width: 960px) {
+@media screen and (min-width: 768px) {
     .header__title {
         width: 120px;
     }
@@ -204,7 +205,7 @@ h2 {
     transition: ease .4s;
 }
 
-@media screen and (min-width: 960px) {
+@media screen and (min-width: 768px) {
     .header__nav {
         position: static;
         transform: initial;
@@ -216,7 +217,7 @@ h2 {
     }
 }
 
-@media screen and (min-width: 960px) {
+@media screen and (min-width: 768px) {
     .nav__items {
         width: 100%;
         display: flex;
@@ -234,7 +235,7 @@ h2 {
     padding: 0;
 }
 
-@media screen and (min-width: 960px) {
+@media screen and (min-width: 768px) {
     .nav-items {
         position: inherit;
         top: 0;
@@ -263,7 +264,7 @@ h2 {
     margin-bottom: 0;
 }
 
-@media screen and (min-width: 960px) {
+@media screen and (min-width: 768px) {
     .nav-items__item a {
         margin-bottom: 0;
     }
@@ -283,7 +284,7 @@ h2 {
     z-index: 9999;
 }
 
-@media screen and (min-width: 960px) {
+@media screen and (min-width: 768px) {
     .hamburger {
         display: none;
     }
@@ -359,7 +360,7 @@ h2 {
     text-align: center;
 }
 
-@media screen and (min-width: 960px) {
+@media screen and (min-width: 768px) {
     .logo img {
         width: 900px;
         margin: auto;
@@ -421,13 +422,13 @@ h2 {
     height: 0;
 }
 
-@media screen and (max-width: 960px) {
+@media screen and (max-width: 767px) {
     .pc-about-lines {
         display: none;
     }
 }
 
-@media screen and (min-width: 960px) {
+@media screen and (min-width: 768px) {
     #about {
         padding: 200px 280px 200px;
     }
@@ -560,7 +561,7 @@ h2 {
 }
 
 
-@media screen and (min-width: 960px) {
+@media screen and (min-width: 768px) {
     .sp-about-content2 {
         display: none;
     }
@@ -599,7 +600,7 @@ h2 {
 
 /* 準備する */
 
-@media screen and (max-width: 960px) {
+@media screen and (max-width: 767px) {
     .pc-preparation {
         display: none;
     }
@@ -680,7 +681,7 @@ h2 {
     height: 102px;
 }
 
-@media screen and (min-width: 960px) {
+@media screen and (min-width: 768px) {
     .sp-preparation {
         display: none;
     }
@@ -783,7 +784,7 @@ h2 {
 
 /* 作る */
 
-@media screen and (max-width: 960px) {
+@media screen and (max-width: 767px) {
     .pc-make-text {
         display: none;
     }
@@ -957,7 +958,7 @@ h2 {
     text-align: left;
 }
 
-@media screen and (min-width: 960px) {
+@media screen and (min-width: 768px) {
     .sp-make-text {
         display: none;
     }
@@ -972,6 +973,7 @@ h2 {
 
     .make {
         padding: 250px 280px 100px;
+        overflow: hidden;
     }
 
     .pc-text-left {
@@ -1045,7 +1047,7 @@ h2 {
 
 /* 食べる前に */
 
-@media screen and (max-width: 960px) {
+@media screen and (max-width: 768px) {
     .pc-beforeEat {
         display: none;
     }
@@ -1055,11 +1057,13 @@ h2 {
     padding: 0 47px 100px;
     background-color: #fefdf8;
     text-align: center;
+    overflow: hidden;
 }
 
 .sp-beforeEat .text-center {
     text-align: left;
     background-color: #FFF3D9;
+    overflow: hidden;
 }
 
 .people5 {
@@ -1067,7 +1071,7 @@ h2 {
     height: 300px;
 }
 
-@media screen and (min-width: 960px) {
+@media screen and (min-width: 768px) {
     .sp-beforeEat {
         display: none;
     }
@@ -1113,7 +1117,7 @@ h2 {
 
 /* 料理の幅は広い */
 
-@media screen and (max-width: 960px) {
+@media screen and (max-width: 767px) {
     .pc-more-content {
         display: none;
     }
@@ -1133,9 +1137,10 @@ h2 {
     height: 300px;
 }
 
-@media screen and (min-width: 960px) {
+@media screen and (min-width: 768px) {
     #more {
         padding: 200px 280px 200px;
+        overflow: hidden;
     }
 
     .sp-more-content {
@@ -1175,7 +1180,7 @@ h2 {
 
 /* 最後に */
 
-@media screen and (max-width: 960px) {
+@media screen and (max-width: 767px) {
     .pc-message {
         display: none;
     }
@@ -1184,6 +1189,7 @@ h2 {
 #message {
     background-color: #fff3d9;
     padding: 0 47px 200px;
+    overflow: hidden;
 }
 
 .people7 {
@@ -1199,9 +1205,10 @@ h2 {
     text-align: left;
 }
 
-@media screen and (min-width: 960px) {
+@media screen and (min-width: 768px) {
     #message {
         padding: 0 280px 200px;
+        overflow: hidden;
     }
 
     .sp-message {
