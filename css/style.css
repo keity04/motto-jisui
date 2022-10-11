@@ -179,7 +179,6 @@ h2 {
     width: 80px;
 }
 
-
 @media screen and (min-width: 768px) {
     .header__title {
         width: 120px;
@@ -362,7 +361,7 @@ h2 {
 
 @media screen and (min-width: 768px) {
     .logo img {
-        width: 900px;
+        width: 80vw;
         margin: auto;
     }
 
@@ -372,6 +371,7 @@ h2 {
         text-align: center;
     }
 }
+
 
 /* about1 */
 #about {
@@ -542,8 +542,10 @@ h2 {
 
 /* about2 */
 
-.pc-about-content2 {
-    display: none;
+@media screen and (max-width: 767px) {
+    .pc-about-content2 {
+        display: none;
+    }
 }
 
 .sp-about-content2 {
@@ -560,7 +562,6 @@ h2 {
     height: 300px;
 }
 
-
 @media screen and (min-width: 768px) {
     .sp-about-content2 {
         display: none;
@@ -575,16 +576,14 @@ h2 {
         width: 40%;
     }
 
-    .pc-about-img {
+    .about-img {
         position: relative;
-        width: 60%;
-        height: 50%;
+        width: 50%;
     }
 
     .pc-about-content2 .meat {
         position: absolute;
-        width: 350px;
-        height: 300px;
+        width: 50%;
         top: -80px;
         left: -30px;
     }
@@ -592,7 +591,8 @@ h2 {
     .pc-about-content2 .people2 {
         position: absolute;
         top: -20px;
-        left: 290px;
+        left: 140px;
+        width: 70%;
     }
 
 }
@@ -630,13 +630,13 @@ h2 {
     margin: auto;
 }
 
-.tool {
+.tools-slider .tool {
     background-color: #F8B600;
     border-radius: 20px;
     padding: 30px;
     width: 150px;
     height: 150px;
-    margin-bottom: 40px;
+    margin: 0 100px 40px;
 }
 
 .sp-preparation .tool img {
@@ -819,8 +819,8 @@ h2 {
 }
 
 .sp-make-container {
-    margin-bottom: 100px;
-    padding: 40px 0 50px;
+    /* margin-bottom: 100px; */
+    padding: 40px 0 150px;
     overflow: hidden;
 }
 
@@ -922,6 +922,7 @@ h2 {
 }
 
 .hidden-content {
+    width: 70vw;
     margin: 50px 0;
     display: flex;
     align-items: center;
@@ -990,8 +991,7 @@ h2 {
 
     .people4 {
         position: absolute;
-        width: 500px;
-        height: 500px;
+        width: 100%;
         top: -90px;
         left: 100px;
     }
@@ -1067,8 +1067,7 @@ h2 {
 }
 
 .people5 {
-    width: 300px;
-    height: 300px;
+    width: 100%;
 }
 
 @media screen and (min-width: 768px) {
@@ -1078,6 +1077,7 @@ h2 {
 
     .pc-beforeEat {
         padding: 0 280px 0;
+        background-color: #fefdf8;
     }
 
     .pc-beforeEat .pc-text-left {
@@ -1101,16 +1101,14 @@ h2 {
         position: absolute;
         top: -120px;
         left: -20px;
-        width: 500px;
-        height: 500px;
+        width: 100%;
     }
 
     .dish {
         position: absolute;
         top: 150px;
         left: 230px;
-        width: 300px;
-        height: 300px;
+        width: 100%;
     }
 }
 
@@ -1158,23 +1156,21 @@ h2 {
 
     .more-img {
         position: relative;
-        width: 40%;
+        width: 600px;
     }
 
     .people6 {
         position: absolute;
-        top: -20px;
+        top: 100px;
         left: -100px;
-        width: 450px;
-        height: 450px;
+        width: 80%;
     }
 
     .ichigo {
         position: absolute;
         top: -50px;
         left: 170px;
-        width: 300px;
-        height: 300px;
+        width: 50%;
     }
 }
 
@@ -1208,7 +1204,6 @@ h2 {
 @media screen and (min-width: 768px) {
     #message {
         padding: 0 280px 200px;
-        overflow: hidden;
     }
 
     .sp-message {
@@ -1222,13 +1217,12 @@ h2 {
 
     .message-img {
         position: relative;
-        width: 50%;
+        width: 80%;
     }
 
     .people7 {
         position: absolute;
-        width: 600px;
-        height: 600px;
+        width: 100%;
         top: -60px;
         left: 0px;
     }
