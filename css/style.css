@@ -453,6 +453,7 @@ h2 {
     }
 
     .pc-about-lines {
+        position: relative;
         margin-top: 50px;
         text-align: center;
     }
@@ -465,7 +466,7 @@ h2 {
     }
 
     .line1 {
-        position: relative;
+        position: absolute;
         padding: 0.5em 0.7em;
         margin: 2em 0;
         background: #fefdf8;
@@ -473,6 +474,8 @@ h2 {
         text-align: center;
         display: inline;
         padding: 40px;
+        top: -80px;
+        left: 37%;
     }
 
     .line1:after {
@@ -487,7 +490,7 @@ h2 {
     }
 
     .line2 {
-        position: relative;
+        position: absolute;
         padding: 0.5em 0.7em;
         margin: 2em 0;
         background: #fefdf8;
@@ -495,8 +498,9 @@ h2 {
         text-align: center;
         display: inline;
         padding: 40px;
-        top: 80px;
         margin-right: 20px;
+        top: -30px;
+        left: 0;
     }
 
     .line2:after {
@@ -511,7 +515,7 @@ h2 {
     }
 
     .line3 {
-        position: relative;
+        position: absolute;
         padding: 0.5em 0.7em;
         margin: 2em 0;
         background: #fefdf8;
@@ -519,8 +523,9 @@ h2 {
         text-align: center;
         display: inline;
         padding: 40px;
-        top: 80px;
         margin-left: 20px;
+        top: -30px;
+        right: -5%;
     }
 
     .line3:after {
@@ -819,7 +824,6 @@ h2 {
 }
 
 .sp-make-container {
-    /* margin-bottom: 100px; */
     padding: 40px 0 150px;
     overflow: hidden;
 }
@@ -836,16 +840,12 @@ h2 {
     border-radius: 20px;
 }
 
-.make-content {
-    position: relative;
-}
-
 .make-content-right {
     text-align: right;
-    position: relative;
 }
 
 .make-main {
+    position: relative;
     margin-bottom: 70vh;
 }
 
